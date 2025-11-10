@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+
+# Jupyter
+.ipynb_checkpoints
+
+# Machine learning artifacts
+data/
+datasets/
+raw_data/
+processed_data/
+models/
+checkpoints/
+weights/
+outputs/
+predictions/
+results/
+logs/
+*.log
+
+# Common model file formats
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.tfrecord
+*.npy
+*.npz
+
+# Caches and framework-specific
+.cache/
+keras_cache/
+.tfhub/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and credentials
+.env
+.env.local
+.env.*
+*.pem
+*.key
+*.crt
+credentials
+
+# Databases / archives / misc
+*.db
+*.sqlite3
+*.sql
+*.tar
+*.zip
